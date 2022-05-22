@@ -257,24 +257,25 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 ---
 ##### Functions:
 
-1. [`Bin2`](./dynamic/binomialcoefficient.go#L21):  Bin2 function
-2. [`CoinChange`](./dynamic/coinchange.go#L5):  CoinChange finds the number of possible combinations of coins of different values which can get to the target amount.
-3. [`CutRodDp`](./dynamic/rodcutting.go#L21):  CutRodDp solve the same problem using dynamic programming
-4. [`CutRodRec`](./dynamic/rodcutting.go#L8):  CutRodRec solve the problem recursively: initial approach
-5. [`EditDistanceDP`](./dynamic/editdistance.go#L35):  EditDistanceDP is an optimised implementation which builds on the ideas of the recursive implementation. We use dynamic programming to compute the DP table where dp[i][j] denotes the edit distance value of first[0..i-1] and second[0..j-1]. Time complexity is O(m * n) where m and n are lengths of the strings, first and second respectively.
-6. [`EditDistanceRecursive`](./dynamic/editdistance.go#L10):  EditDistanceRecursive is a naive implementation with exponential time complexity.
-7. [`IsSubsetSum`](./dynamic/subsetsum.go#L14): No description provided.
-8. [`Knapsack`](./dynamic/knapsack.go#L17):  Knapsack solves knapsack problem return maxProfit
-9. [`LongestCommonSubsequence`](./dynamic/longestcommonsubsequence.go#L8):  LongestCommonSubsequence function
-10. [`LongestIncreasingSubsequence`](./dynamic/longestincreasingsubsequence.go#L9):  LongestIncreasingSubsequence returns the longest increasing subsequence where all elements of the subsequence are sorted in increasing order
-11. [`LongestIncreasingSubsequenceGreedy`](./dynamic/longestincreasingsubsequencegreedy.go#L9):  LongestIncreasingSubsequenceGreedy is a function to find the longest increasing subsequence in a given array using a greedy approach. The dynamic programming approach is implemented alongside this one. Worst Case Time Complexity: O(nlogn) Auxiliary Space: O(n), where n is the length of the array(slice). Reference: https://www.geeksforgeeks.org/construction-of-longest-monotonically-increasing-subsequence-n-log-n/
-12. [`LpsDp`](./dynamic/longestpalindromicsubsequence.go#L21):  LpsDp function
-13. [`LpsRec`](./dynamic/longestpalindromicsubsequence.go#L7):  LpsRec function
-14. [`MatrixChainDp`](./dynamic/matrixmultiplication.go#L24):  MatrixChainDp function
-15. [`MatrixChainRec`](./dynamic/matrixmultiplication.go#L10):  MatrixChainRec function
-16. [`Max`](./dynamic/knapsack.go#L11):  Max function - possible duplicate
-17. [`NthCatalanNumber`](./dynamic/catalan.go#L13):  NthCatalan returns the n-th Catalan Number Complexity: O(n²)
-18. [`NthFibonacci`](./dynamic/fibonacci.go#L6):  NthFibonacci returns the nth Fibonacci Number
+1. [`Abbreviation`](./dynamic/abbreviation.go#L24):  Returns true if it is possible to make a equals b (if b is an abbreviation of a), returns false otherwise
+2. [`Bin2`](./dynamic/binomialcoefficient.go#L21):  Bin2 function
+3. [`CoinChange`](./dynamic/coinchange.go#L5):  CoinChange finds the number of possible combinations of coins of different values which can get to the target amount.
+4. [`CutRodDp`](./dynamic/rodcutting.go#L21):  CutRodDp solve the same problem using dynamic programming
+5. [`CutRodRec`](./dynamic/rodcutting.go#L8):  CutRodRec solve the problem recursively: initial approach
+6. [`EditDistanceDP`](./dynamic/editdistance.go#L35):  EditDistanceDP is an optimised implementation which builds on the ideas of the recursive implementation. We use dynamic programming to compute the DP table where dp[i][j] denotes the edit distance value of first[0..i-1] and second[0..j-1]. Time complexity is O(m * n) where m and n are lengths of the strings, first and second respectively.
+7. [`EditDistanceRecursive`](./dynamic/editdistance.go#L10):  EditDistanceRecursive is a naive implementation with exponential time complexity.
+8. [`IsSubsetSum`](./dynamic/subsetsum.go#L14): No description provided.
+9. [`Knapsack`](./dynamic/knapsack.go#L17):  Knapsack solves knapsack problem return maxProfit
+10. [`LongestCommonSubsequence`](./dynamic/longestcommonsubsequence.go#L8):  LongestCommonSubsequence function
+11. [`LongestIncreasingSubsequence`](./dynamic/longestincreasingsubsequence.go#L9):  LongestIncreasingSubsequence returns the longest increasing subsequence where all elements of the subsequence are sorted in increasing order
+12. [`LongestIncreasingSubsequenceGreedy`](./dynamic/longestincreasingsubsequencegreedy.go#L9):  LongestIncreasingSubsequenceGreedy is a function to find the longest increasing subsequence in a given array using a greedy approach. The dynamic programming approach is implemented alongside this one. Worst Case Time Complexity: O(nlogn) Auxiliary Space: O(n), where n is the length of the array(slice). Reference: https://www.geeksforgeeks.org/construction-of-longest-monotonically-increasing-subsequence-n-log-n/
+13. [`LpsDp`](./dynamic/longestpalindromicsubsequence.go#L21):  LpsDp function
+14. [`LpsRec`](./dynamic/longestpalindromicsubsequence.go#L7):  LpsRec function
+15. [`MatrixChainDp`](./dynamic/matrixmultiplication.go#L24):  MatrixChainDp function
+16. [`MatrixChainRec`](./dynamic/matrixmultiplication.go#L10):  MatrixChainRec function
+17. [`Max`](./dynamic/knapsack.go#L11):  Max function - possible duplicate
+18. [`NthCatalanNumber`](./dynamic/catalan.go#L13):  NthCatalan returns the n-th Catalan Number Complexity: O(n²)
+19. [`NthFibonacci`](./dynamic/fibonacci.go#L6):  NthFibonacci returns the nth Fibonacci Number
 
 ---
 </details><details>
