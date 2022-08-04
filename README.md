@@ -238,7 +238,7 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 
-#####  Package diffiehellman implements Deffie Hellman Key Exchange Algorithm for more information watch : https://www.youtube.com/watch?v=NmM9HA2MQGI
+#####  Package diffiehellman implements Diffie-Hellman Key Exchange Algorithm for more information watch : https://www.youtube.com/watch?v=NmM9HA2MQGI
 
 ---
 ##### Functions:
