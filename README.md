@@ -868,7 +868,7 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 
-#####  Package sort a package for demonstrating sorting algorithms in Go
+#####  Package sort Patience sorting is a sorting algorithm inspired by the card game patience.  For more details check out those links below here: GeeksForGeeks article : https://www.geeksforgeeks.org/patience-sorting/ Wikipedia article: https://en.wikipedia.org/wiki/Patience_sorting authors [guuzaa](https://github.com/guuzaa) see patiencesort.go Package sort a package for demonstrating sorting algorithms in Go
 
 ---
 ##### Functions:
@@ -883,13 +883,14 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 8. [`Merge`](./sort/mergesort.go#L40):  Merge Perform merge sort on a slice
 9. [`MergeIter`](./sort/mergesort.go#L54): No description provided.
 10. [`Partition`](./sort/quicksort.go#L12): No description provided.
-11. [`Pigeonhole`](./sort/pigeonholesort.go#L12):  Pigeonhole sorts a slice using pigeonhole sorting algorithm.
-12. [`Quicksort`](./sort/quicksort.go#L39):  Quicksort Sorts the entire array
-13. [`QuicksortRange`](./sort/quicksort.go#L26):  QuicksortRange Sorts the specified range within the array
-14. [`RadixSort`](./sort/radixsort.go#L35): No description provided.
-15. [`Selection`](./sort/selectionsort.go#L5): No description provided.
-16. [`Shell`](./sort/shellsort.go#L5): No description provided.
-17. [`Simple`](./sort/simplesort.go#L13): No description provided.
+11. [`Patience`](./sort/patiencesort.go#L13): No description provided.
+12. [`Pigeonhole`](./sort/pigeonholesort.go#L12):  Pigeonhole sorts a slice using pigeonhole sorting algorithm.
+13. [`Quicksort`](./sort/quicksort.go#L39):  Quicksort Sorts the entire array
+14. [`QuicksortRange`](./sort/quicksort.go#L26):  QuicksortRange Sorts the specified range within the array
+15. [`RadixSort`](./sort/radixsort.go#L35): No description provided.
+16. [`Selection`](./sort/selectionsort.go#L5): No description provided.
+17. [`Shell`](./sort/shellsort.go#L5): No description provided.
+18. [`Simple`](./sort/simplesort.go#L13): No description provided.
 
 ---
 ##### Types
