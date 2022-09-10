@@ -555,8 +555,9 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 6. [`Mean`](./math/mean.go#L7): No description provided.
 7. [`Median`](./math/median.go#L12): No description provided.
 8. [`Mode`](./math/mode.go#L19): No description provided.
-9. [`Phi`](./math/eulertotient.go#L5):  Phi is the Euler totient function. This function computes the number of numbers less then n that are coprime with n.
-10. [`Sin`](./math/sin.go#L9):  Sin returns the sine of the radian argument x. [See more](https://en.wikipedia.org/wiki/Sine_and_cosine)
+9. [`Mu`](./math/mobius.go#L21):  Mu is the Mobius function This function returns μ(n) for given number
+10. [`Phi`](./math/eulertotient.go#L5):  Phi is the Euler totient function. This function computes the number of numbers less then n that are coprime with n.
+11. [`Sin`](./math/sin.go#L9):  Sin returns the sine of the radian argument x. [See more](https://en.wikipedia.org/wiki/Sine_and_cosine)
 
 ---
 </details><details>
@@ -871,7 +872,7 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 
-#####  Package sort a package for demonstrating sorting algorithms in Go Package sort Patience sorting is a sorting algorithm inspired by the card game patience.  For more details check out those links below here: GeeksForGeeks article : https://www.geeksforgeeks.org/patience-sorting/ Wikipedia article: https://en.wikipedia.org/wiki/Patience_sorting authors [guuzaa](https://github.com/guuzaa) see patiencesort.go
+#####  Package sort Patience sorting is a sorting algorithm inspired by the card game patience.  For more details check out those links below here: GeeksForGeeks article : https://www.geeksforgeeks.org/patience-sorting/ Wikipedia article: https://en.wikipedia.org/wiki/Patience_sorting authors [guuzaa](https://github.com/guuzaa) see patiencesort.go Package sort a package for demonstrating sorting algorithms in Go
 
 ---
 ##### Functions:
@@ -919,6 +920,19 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 3. [`Stack`](./structure/stack/stacklinkedlist.go#L19): No description provided.
 
+
+---
+</details><details>
+	<summary> <strong> strings </strong> </summary>	
+
+---
+
+#####  Package strings is a package that contains all algorithms that are used to analyse and manipulate strings.
+
+---
+##### Functions:
+
+1. [`CountChars`](./strings/charoccurrence.go#L12):  CountChars counts the number of a times a character has occurred in the provided string argument and returns a map with `rune` as keys and the count as value.
 
 ---
 </details><details>
