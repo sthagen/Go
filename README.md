@@ -501,7 +501,7 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 
-#####  Package linkedlist demonstates different implementations on linkedlists.
+#####  Package linkedlist demonstrates different implementations on linkedlists.
 
 ---
 ##### Functions:
@@ -871,7 +871,7 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 
-#####  Package sort Patience sorting is a sorting algorithm inspired by the card game patience.  For more details check out those links below here: GeeksForGeeks article : https://www.geeksforgeeks.org/patience-sorting/ Wikipedia article: https://en.wikipedia.org/wiki/Patience_sorting authors [guuzaa](https://github.com/guuzaa) see patiencesort.go Package sort a package for demonstrating sorting algorithms in Go
+#####  Package sort a package for demonstrating sorting algorithms in Go Package sort Patience sorting is a sorting algorithm inspired by the card game patience.  For more details check out those links below here: GeeksForGeeks article : https://www.geeksforgeeks.org/patience-sorting/ Wikipedia article: https://en.wikipedia.org/wiki/Patience_sorting authors [guuzaa](https://github.com/guuzaa) see patiencesort.go
 
 ---
 ##### Functions:
