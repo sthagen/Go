@@ -554,14 +554,15 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 5. [`FindKthMax`](./math/kthnumber.go#L11):  FindKthMax returns the kth large element given an integer slice with nil `error` if found and returns -1 with `error` `search.ErrNotFound` if not found. NOTE: The `nums` slice gets mutated in the process.
 6. [`FindKthMin`](./math/kthnumber.go#L19):  FindKthMin returns kth small element given an integer slice with nil `error` if found and returns -1 with `error` `search.ErrNotFound` if not found. NOTE: The `nums` slice gets mutated in the process.
 7. [`IsPowOfTwoUseLog`](./math/checkisnumberpoweroftwo.go#L10):  IsPowOfTwoUseLog This function checks if a number is a power of two using the logarithm. The limiting degree can be from 0 to 63. See alternatives in the binary package.
-8. [`LiouvilleLambda`](./math/liouville.go#L24):  Lambda is the liouville function This function returns λ(n) for given number
-9. [`Mean`](./math/mean.go#L7): No description provided.
-10. [`Median`](./math/median.go#L12): No description provided.
-11. [`Mode`](./math/mode.go#L19): No description provided.
-12. [`Mu`](./math/mobius.go#L21):  Mu is the Mobius function This function returns μ(n) for given number
-13. [`Phi`](./math/eulertotient.go#L5):  Phi is the Euler totient function. This function computes the number of numbers less then n that are coprime with n.
-14. [`PollardsRhoFactorization`](./math/pollard.go#L29):  PollardsRhoFactorization is an implementation of Pollard's rho factorization algorithm using the default parameters x = y = 2
-15. [`Sin`](./math/sin.go#L9):  Sin returns the sine of the radian argument x. [See more](https://en.wikipedia.org/wiki/Sine_and_cosine)
+8. [`Lerp`](./math/lerp.go#L5):  Lerp or Linear interpolation This function will return new value in 't' percentage  between 'v0' and 'v1'
+9. [`LiouvilleLambda`](./math/liouville.go#L24):  Lambda is the liouville function This function returns λ(n) for given number
+10. [`Mean`](./math/mean.go#L7): No description provided.
+11. [`Median`](./math/median.go#L12): No description provided.
+12. [`Mode`](./math/mode.go#L19): No description provided.
+13. [`Mu`](./math/mobius.go#L21):  Mu is the Mobius function This function returns μ(n) for given number
+14. [`Phi`](./math/eulertotient.go#L5):  Phi is the Euler totient function. This function computes the number of numbers less then n that are coprime with n.
+15. [`PollardsRhoFactorization`](./math/pollard.go#L29):  PollardsRhoFactorization is an implementation of Pollard's rho factorization algorithm using the default parameters x = y = 2
+16. [`Sin`](./math/sin.go#L9):  Sin returns the sine of the radian argument x. [See more](https://en.wikipedia.org/wiki/Sine_and_cosine)
 
 ---
 </details><details>
@@ -989,6 +990,7 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 1. [`Decrypt`](./cipher/xor/xor.go#L19):  Decrypt decrypts with Xor encryption
 2. [`Encrypt`](./cipher/xor/xor.go#L10):  Encrypt encrypts with Xor encryption after converting each character to byte The returned value might not be readable because there is no guarantee which is within the ASCII range If using other type such as string, []int, or some other types, add the statements for converting the type to []byte.
+3. [`FuzzXOR`](./cipher/xor/xor_test.go#L108): No description provided.
 
 ---
 </details>
