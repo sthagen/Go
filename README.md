@@ -234,7 +234,7 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 7. [`EditDistanceRecursive`](./dynamic/editdistance.go#L10):  EditDistanceRecursive is a naive implementation with exponential time complexity.
 8. [`IsSubsetSum`](./dynamic/subsetsum.go#L14): No description provided.
 9. [`Knapsack`](./dynamic/knapsack.go#L17):  Knapsack solves knapsack problem return maxProfit
-10. [`LongestCommonSubsequence`](./dynamic/longestcommonsubsequence.go#L12):  LongestCommonSubsequence function
+10. [`LongestCommonSubsequence`](./dynamic/longestcommonsubsequence.go#L13):  LongestCommonSubsequence function
 11. [`LongestIncreasingSubsequence`](./dynamic/longestincreasingsubsequence.go#L9):  LongestIncreasingSubsequence returns the longest increasing subsequence where all elements of the subsequence are sorted in increasing order
 12. [`LongestIncreasingSubsequenceGreedy`](./dynamic/longestincreasingsubsequencegreedy.go#L9):  LongestIncreasingSubsequenceGreedy is a function to find the longest increasing subsequence in a given array using a greedy approach. The dynamic programming approach is implemented alongside this one. Worst Case Time Complexity: O(nlogn) Auxiliary Space: O(n), where n is the length of the array(slice). Reference: https://www.geeksforgeeks.org/construction-of-longest-monotonically-increasing-subsequence-n-log-n/
 13. [`LpsDp`](./dynamic/longestpalindromicsubsequence.go#L25):  LpsDp function
@@ -342,25 +342,28 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 
-#####  Package geometry contains geometric algorithms
+#####  Package geometry contains geometric algorithms Package geometry contains geometric algorithms
 
 ---
 ##### Functions:
 
 1. [`Distance`](./math/geometry/straightlines.go#L18):  Distance calculates the shortest distance between two points.
-2. [`IsParallel`](./math/geometry/straightlines.go#L42):  IsParallel checks if two lines are parallel or not.
-3. [`IsPerpendicular`](./math/geometry/straightlines.go#L47):  IsPerpendicular checks if two lines are perpendicular or not.
-4. [`PointDistance`](./math/geometry/straightlines.go#L53):  PointDistance calculates the distance of a given Point from a given line. The slice should contain the coefficiet of x, the coefficient of y and the constant in the respective order.
-5. [`Section`](./math/geometry/straightlines.go#L24):  Section calculates the Point that divides a line in specific ratio. DO NOT specify the ratio in the form m:n, specify it as r, where r = m / n.
-6. [`Slope`](./math/geometry/straightlines.go#L32):  Slope calculates the slope (gradient) of a line.
-7. [`YIntercept`](./math/geometry/straightlines.go#L37):  YIntercept calculates the Y-Intercept of a line from a specific Point.
+2. [`EuclideanDistance`](./math/geometry/distance.go#L20):  EuclideanDistance returns the Euclidean distance between points in any `n` dimensional Euclidean space.
+3. [`IsParallel`](./math/geometry/straightlines.go#L42):  IsParallel checks if two lines are parallel or not.
+4. [`IsPerpendicular`](./math/geometry/straightlines.go#L47):  IsPerpendicular checks if two lines are perpendicular or not.
+5. [`PointDistance`](./math/geometry/straightlines.go#L53):  PointDistance calculates the distance of a given Point from a given line. The slice should contain the coefficiet of x, the coefficient of y and the constant in the respective order.
+6. [`Section`](./math/geometry/straightlines.go#L24):  Section calculates the Point that divides a line in specific ratio. DO NOT specify the ratio in the form m:n, specify it as r, where r = m / n.
+7. [`Slope`](./math/geometry/straightlines.go#L32):  Slope calculates the slope (gradient) of a line.
+8. [`YIntercept`](./math/geometry/straightlines.go#L37):  YIntercept calculates the Y-Intercept of a line from a specific Point.
 
 ---
 ##### Types
 
-1. [`Line`](./math/geometry/straightlines.go#L13): No description provided.
+1. [`EuclideanPoint`](./math/geometry/distance.go#L14): No description provided.
 
-2. [`Point`](./math/geometry/straightlines.go#L9): No description provided.
+2. [`Line`](./math/geometry/straightlines.go#L13): No description provided.
+
+3. [`Point`](./math/geometry/straightlines.go#L9): No description provided.
 
 
 ---
@@ -777,6 +780,19 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 3. [`Queue`](./structure/queue/queuelinkedlist.go#L19): No description provided.
 
+
+---
+</details><details>
+	<summary> <strong> rot13 </strong> </summary>	
+
+---
+
+#####  Package rot13 is a simple letter substitution cipher that replaces a letter with the 13th letter after it in the alphabet. ref: https://en.wikipedia.org/wiki/ROT13
+
+---
+##### Functions:
+
+1. [`FuzzRot13`](./cipher/rot13/rot13_test.go#L72): No description provided.
 
 ---
 </details><details>
